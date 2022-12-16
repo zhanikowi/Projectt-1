@@ -1,0 +1,178 @@
+.header{
+  display: flex;
+  background-color: rgb(251, 245, 239);
+  height: 300px;
+ 
+}
+
+.game{
+  background-color:  rgb(211, 39, 39);
+  color: white;
+  margin-left: 100px;
+  padding: 0.5%;
+  text-align: center;
+  border-radius: 15px;
+  height: 50px;
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.info{
+  display: flex;
+  margin-left: 60%;
+  background-color: white;
+  border-radius: 10px;
+  align-items: center;
+  text-align: center;
+  width: 500px;
+  height: 60px;
+  position: fixed;
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+.info div{
+  padding: 25px;
+}
+
+
+.game p{
+  font-size: 150%;
+  font-family:'Comic Sans MS', cursive;
+}
+
+
+.kipon{
+  position: absolute;
+  margin-top: -170px;
+  background-color: white;
+  width: 700px;
+  padding: 3%;
+  margin-left: 100px;
+  border-radius: 20px;
+}
+
+#casual{
+  display: flex;
+}
+
+#casual2{
+  padding: 3%;
+}
+.img1{
+  border-radius: 20px;
+  height: 80px;
+}
+
+.info2{
+  margin-top: 500px;
+  margin-left: 100px;
+  
+}
+
+
+.info2 img{
+  height: 350px;
+  border-radius: 20px;
+}
+
+#photo{
+  display: flex;
+  
+}
+
+#photo img{
+  margin: 22px;
+}
+
+#screen{
+  font-size: 30px;
+  margin-left: 30px;
+  font-weight: bold;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.kkk{
+  display: flex;
+  margin:  100px;
+  align-items: center;
+  padding-top: -30%;
+}
+
+.kkk div{
+  border-style: solid;
+  padding: 6%;
+  width: 500px;
+  height: 350px;
+  
+}
+ 
+.reviews{
+  display: flex;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.img3{
+  border-radius: 40px;
+  margin-left: 95px;
+  
+}
+
+.game2{
+  margin-left: 650px;
+  background-color:  rgb(211, 39, 39);
+  color: white;
+  padding: 0.5%;
+  text-align: center;
+  border-radius: 15px;
+  height: 50px;
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  width: 200px;
+}
+
+
+.game2 p{
+  font-size: 150%;
+  font-family:'Comic Sans MS', cursive;
+}
+
+.appstore{
+  align-items: center;
+  margin-top: 300px;
+  background-color: white;
+  text-align: center;
+  margin-left: 500px;
+  margin-right: 500px;
+  height: 250px;
+  padding: 2%;
+  margin-top: 10px;
+  border-radius: 15px;
+}
+
+.appstore div{
+  margin-top: 20px;
+}
+
+.stores{
+  display: flex;
+  align-items: center;
+  
+}
+
+.stores div{
+  padding-left: 5%;
+}
+
+
+.stores img{
+  border-radius: 15px;
+  align-items: center;
+  margin-left: 20px;
+  
+}
+
+
+.info3{
+  background-color: rgb(251, 245, 239);
+}
+
+
+
