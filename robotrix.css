@@ -1,7 +1,11 @@
+body{
+  margin: 0 auto;
+}
+
 .header{
   display: flex;
   background-color: rgb(251, 245, 239);
-  height: 300px;
+  height: 00px;
 }
 
 .game{
@@ -53,10 +57,10 @@
 
 
 .kipon{
-  position: absolute;
-  margin-top: -900px;
+  position:sticky;
+  margin-top: -300px;
   background-color: white;
-  width: 550px;
+  width: 1200px;
   padding: 3%;
   margin-left: 100px;
   border-radius: 20px;
@@ -72,8 +76,10 @@
 }
 
 .main2{
-  margin-top: -450px;
+  margin-top: -325px;
   position: relative;
+  padding-top: -0.5px;
+
 }
 
 
@@ -94,7 +100,7 @@
 }
 
 #photo{
-  display: flex;
+  
   
 }
 
@@ -121,7 +127,7 @@
 .kkk div{
   border-style: solid;
   padding: 6%;
-  width: 500px;
+  width: 530px;
   height: 180px;
   
 }
@@ -201,4 +207,3 @@
 .tbl{
   padding-left: 10%;
 }
-
