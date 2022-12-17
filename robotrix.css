@@ -99,13 +99,11 @@ body{
   border-radius: 20px;
 }
 
-#photo{
-  
-  
-}
+
 
 #photo img{
   margin: 22px;
+  transition: 0.5s all ease-in-out;
 }
 
 #screen{
@@ -207,3 +205,8 @@ body{
 .tbl{
   padding-left: 10%;
 }
+
+#imgg4:hover{
+  transform: scale(1.1);
+}
+
