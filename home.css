@@ -1,0 +1,93 @@
+body{
+    margin: 0 auto;
+  }
+  
+  .header{
+    display: flex;
+    background-color: rgb(251, 245, 239);
+    height: 00px;
+  }
+  
+  .game{
+    background-color:  rgb(211, 39, 39);
+    color: white;
+    margin-left: 100px;
+    text-align: center;
+    align-items: center;
+    border-radius: 0 0 15px 15px;
+    position: fixed;
+    height: 60px;
+    width: 180px;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  }
+  
+  
+  
+  .info{
+    display: flex;
+    margin-left: 60%;
+    background-color: white;
+    border-radius: 0 0 10px 10px;
+    align-items: center;
+    text-align: center;
+    width: 470px;
+    height: 60px;
+    position: fixed;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  }
+  .info div{
+    padding: 25px;
+  }
+  
+  
+  .info div:hover{
+    background-color: rgb(211, 39, 39);
+    color: white;
+    border-radius: 0 0 10px 10px;
+    height: 15px;
+    cursor: pointer;
+  }
+  
+  
+  .game p{
+    font-size: 130%;
+    font-family:'Comic Sans MS', cursive;
+    margin-top: 12px; 
+  }
+
+  /* body{
+    background-image: url(main1.jpg); 
+    width: 100%;
+    height: 98vh;
+    background-position: center;
+    background-size: cover; 
+  } */
+
+  .headline{
+    margin-top: -550px;
+    margin-left: 7%;
+    font-size: 80px;
+    font-family: 'Suez One', serif;
+    color: #272443;
+  }
+
+  .underheadline{
+    font-size: 24px; 
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: -60px;
+    margin-left: 7%;
+    color: #272443;
+  }
+
+ 
+  
+  
+ 
+  
+  
+  
+  
+  
+
+
+  
