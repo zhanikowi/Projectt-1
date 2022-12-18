@@ -105,14 +105,7 @@ body{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    height: 50vh;
-  }
-  .imgintro1:hover{
-    background-image:url(imgintro1.png);
-    width:22%;
-    height: 100%;
-    object-fit:cover;
-    border-radius: 20px;
+    height: 48vh;
   }
 
   .gameintro > div{
@@ -124,35 +117,101 @@ body{
   .imgintro1{
     object-fit:cover;
     border-radius: 20px;
-    align-items: center;
-    background-image: linear-gradient(to bottom, rgb(247, 216, 160,0), rgb(250, 173, 29,1)), url(imgintro1.png);
+    background: linear-gradient(to bottom, rgb(247, 216, 160,0), rgb(250, 58, 29,1)), url(imgintro1.png);
+    background-size: 37vh;
     
+  }
+  .imgintro1:hover{
+    background-image:url(imgintro1.png);
+    width:22%;
+    height: 100%;
+    object-fit:cover;
+    border-radius: 20px;
+    background-size: 37vh;
   }
 
   .imgintro2{
-    width:100%;
+    object-fit:cover;
+    border-radius: 20px;
+    background-image: linear-gradient(to bottom, rgb(247, 216, 160,0), rgb(250, 58, 29,1)), url(imgintro2.png);
+    background-size: 37vh;
+  }
+
+  .imgintro2:hover{
+    background-image:url(imgintro2.png);
+    width:22%;
     height: 100%;
     object-fit:cover;
     border-radius: 20px;
-    background: linear-gradient(blue, pink);
+    background-size: 37vh;
   }
 
   .imgintro3{
-    width:100%;
-    height: 100%;
     object-fit:cover;
-    border-radius: 15px;
-    background: linear-gradient(blue, pink);
+    border-radius: 20px;
+    background-image: linear-gradient(to bottom, rgb(247, 216, 160,0), rgb(250, 58, 29,1)), url(imgintro3.png);
+    background-size: 37vh;
   }
 
-  .imgintro4{
-    width:100%;
+  .imgintro3:hover{
+    background-image:url(imgintro3.png);
+    width:22%;
     height: 100%;
     object-fit:cover;
     border-radius: 20px;
-    background: linear-gradient(blue, pink);
+    background-size: 37vh;
   }
 
+  .imgintro4{
+    object-fit:cover;
+    border-radius: 20px;
+    background-image: linear-gradient(to bottom, rgb(247, 216, 160,0), rgb(250, 58, 29,1)), url(imgintro4.png);
+    background-size: 37vh;
+  }
+
+  .imgintro4:hover{
+    background-image:url(imgintro4.png);
+    width:22%;
+    height: 100%;
+    object-fit:cover;
+    border-radius: 20px;
+    background-size: 37vh;
+  }
+
+  .abouttripo{
+    height: 160vh;
+    align-items: center;
+    text-align: center;
+    margin-top: 200px;
+  }
+  
+  .p1abouttripo{
+    font-style:bold; 
+    font-size: 21px; 
+    font-family: Arial, Helvetica, sans-serif;
+    color: #272443;
+  }
+
+  .h1abouttripo{
+    font-size: 50px; 
+    font-family: 'Suez One', serif; 
+    color: #272443; 
+  }
+
+  .p2abouttripo{
+    font-size: 18px; 
+    font-family: Arial, Helvetica, sans-serif;
+    color: #272443;
+  }
+
+  .btnabouttripo{
+    background-color: rgb(192, 15, 15) ; 
+    width: 150px; 
+    height: 70px; 
+    border-radius: 15px;
+    font-size: 18px;
+    color: white;
+  }
  
   
   
