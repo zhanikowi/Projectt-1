@@ -4,24 +4,43 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" href="robotrix.css">
 	  <title>Robotrix</title>
-    <script src="robotrix.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="robotrix.css" type="text/css" media="all">
+    <script src="robotrix.js" defer></script>
   </head>
   <body>
+    <script>
+      $(document).ready(function(){
+  $("#gamee").click(function(){
+    $("#panel").fadeToggle("slow");
+  });
+});
+
+    </script>
 
     <div style="background-color: rgb(251, 245, 239);">
-    <div class="header">
-      <div class="game" style="cursor: pointer;">
-        <p>Tripo Games</p>
+      <div>
+        <div class="header">
+          <div class="game" style="cursor: pointer;">
+            <p>Tripo Games</p>
+          </div>
+          <div class="info">
+            <div>Home</div>
+            <div id="gamee">Games</div>
+            <div>Careers</div>
+            <div>About</div>
+            <div>Contact</div>
+          </div>
+        </div>
+
+        <div id="panel">
+          <ul id="pan">
+            <li id="li" style="cursor: pointer;">Brawl Stars</li>
+            <li id="li" style="cursor: pointer;">Robotrix</li>
+            <li id="li" style="cursor: pointer;">Treasure Box</li>
+          </ul>
+        </div>
       </div>
-      <div class="info">
-        <div>Home</div>
-        <div>Games</div>
-        <div>Careers</div>
-        <div>About</div>
-        <div>Contact</div>
-      </div>
-    </div>
 
     <div id = "mainphoto">
     <img src="8.png" style="width: 100%;" alt="">
@@ -45,7 +64,6 @@
   </div>
     
     <div class="main2" style="width: 100%; background-color: rgb(251, 245, 239);">
-    
       <div class="info2">
         <p id="screen">Screenshorts</p>
         <div id="photo">
@@ -62,23 +80,31 @@
         <p style="font-size: 50px; font-family:'Times New Roman', Times, serif ; margin-left: 30px;">Reviews</p>
       </div>
 
+   <div style="width: 100%;">
       
-      <div  class="kkk" style="cursor: pointer;">
-        <div>
-          <p>“I'm a testimonial. Click to edit me and add text that says something nice about you and your services.”</p>
-          <h3>Wang Wai</h3>
+
+    <div id="mainflip">
+      <div id="flip">More Information about this game</div>
+      <div id="panell" style="display: flex;">
+        <div style="align-items: center; text-align: center; padding: 10%;">
+          <p>A robot is a type of automated machine that can execute specific tasks with little or no human intervention and with speed and precision. The field of robotics, which deals with robot design, engineering and operation, has advanced remarkably in the last 50 years.</p>
+          <h2>Robots</h2>
         </div>
-        <div>
-          <p> “I'm a testimonial. Click to edit me and add text that says something nice about you and your services. Let your customers review you and tell their friends how great you are.”</p>
-          <h3>Jose Pablo</h3>
-        </div>
-        <div>
-          <p>
-            “I'm a testimonial. Click to edit me and add text that says something nice about you and your services.”</p>
-          <h3>Priya Gunga</h3>
-        </div>
+        <img style="width: 50%; padding: 1%;" src="https://static1.colliderimages.com/wordpress/wp-content/uploads/2022/11/transformers-earthspark-poster-social-featured-01.jpg" alt="">
       </div>
-    
+    </div>
+  </div>   
+
+
+      <!--<div id="robots">
+        <div id="im1"><img src="https://avatars.mds.yandex.net/get-kinopoisk-post-img/1101693/e967481426748da2beb22ea5337a8072/960x540" alt=""></div>
+        <div id="im2"><img src="https://thumbs.dfs.ivi.ru/storage23/contents/9/e/b42f50cd6892a14cf7c6aafce808d7.jpg/858x483/?q=60" alt=""></div>
+        <div id="im3"><img src="http://belinfilm.by/wp-content/webpc-passthru.php?src=http://belinfilm.by/wp-content/uploads/2017/05/89029f.8kh46z.5t07.q4.dw_.jpg&nocache=1" alt=""></div>
+      </div>-->
+
+
+
+
     </div>
 
     <img src="9.png" style="margin-top: -50px; width: 100%;" alt="">
@@ -99,10 +125,7 @@
       </div>
 
       <p style="text-align: center; padding: 2%; font-size: 30px; font-family: 'Times New Roman', Times, serif;">An Immersive Gaming Experience</p>
-
-
       <hr style="background:#000000; width:70%; height:2px; margin-left: 230px; margin-right: 230px;">
-
       <div style="padding: 2%; margin-left: 150px; display: flex; cursor: pointer;">
         <table class="tbl" style="width: 900px;">
           <tr  style="font-size: 20px; font-weight: bold;">
@@ -133,10 +156,12 @@
          </div>
          </div>
         </div>
-
-      
-
     </div>
     
+
+
+
+
+   
 
   </body>
