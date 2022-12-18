@@ -179,7 +179,7 @@ body{
   }
 
   .abouttripo{
-    height: 160vh;
+    height: 350vh;
     align-items: center;
     text-align: center;
     margin-top: 200px;
@@ -212,6 +212,102 @@ body{
     font-size: 18px;
     color: white;
   }
+
+  .imgabouttripo{
+    width: 700px;
+    height: 400px;
+    border-radius: 15px;
+  }
+
+  .img2abouttripo{
+    width:230px;
+    height: auto;
+    margin-top: -200px;
+    margin-left: -650px;
+  }
+
+  .moreaboutgames{
+    background-image: url(moreaboutgames.png);
+    background-size: 190vh;
+    width: 190vh;
+    height: 160vh;
+    display: flex;
+    flex-direction: row;
+  }
+
+  #moremain1{
+    display: flex;
+    flex-direction: column;
+  }
+
+  #moremain2{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .more1{
+    background-color: white;
+    border-radius: 30px;
+    width: 50vh;
+    height: 50vh;
+    margin: 0px 100px 50px 180px;
+    box-shadow: 5px 5px 5px #f6c4af69, 0 5px 5px #f6c4af69;
+  }
+
+  .more1>img{
+     margin: 5vh 30vh 30vh 5vh;
+     width: 12vh;
+     border-radius: 30px;
+     border-style: solid;
+     border-color: white;
+     box-shadow: 5px 5px 5px #f6c4af69, 0 5px 5px #f6c4af69;
+  }
+
+  .more2{
+    background-color: white;
+    border-radius: 30px;
+    width: 50vh;
+    height: 50vh;
+    margin: 0px 50px 50px 220px;
+    box-shadow: 5px 5px 5px #f6c4af69, 0 5px 5px #f6c4af69;
+  }
+
+  .more2>img{
+    margin: 5vh 30vh 30vh 5vh;
+    width: 12vh;
+    border-radius: 30px;
+    border-style: solid;
+    border-color: white;
+    box-shadow: 5px 5px 5px #f6c4af69, 0 5px 5px #f6c4af69;
+  }
+
+  .more3{
+    background-color: white;
+    border-radius: 30px;
+    width: 50vh;
+    height: 50vh;
+    margin: 340px 50px 50px 180px;
+    box-shadow: 5px 5px 5px #f6c4af69, 0 5px 5px #f6c4af69;
+  }
+
+  .more3>img{
+    margin: 5vh 30vh 30vh 5vh;
+    width: 12vh;
+    border-radius: 30px;
+    border-style: solid;
+    border-color: white;
+    box-shadow: 5px 5px 5px #f6c4af69, 0 5px 5px #f6c4af69;
+  }
+  
+  .more4{
+    margin: 400px 50px 50px 220px;
+  }
+
+  .more4>img{
+    height: 40vh;
+  }
+
+
  
   
   
