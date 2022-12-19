@@ -1,0 +1,221 @@
+body{
+  margin: 0;
+  background-color: rgb(13, 13, 13);
+}
+
+#img1{
+  position: absolute;
+  width: 100%;
+  height: 750px;
+}
+
+.header{
+  display: flex;
+  background-color: rgb(251, 245, 239);
+  height: 300px;
+}
+
+.info{
+  display: flex;
+  margin-top: 10px;
+  margin-left: 390px;
+  border-radius: 10px;
+  align-items: center;
+  text-align: center;
+  width: 470px;
+  height: 60px;
+  position: absolute;
+  color: white;
+}
+
+.info div{
+  padding: 50px;
+}
+
+
+.info div:hover{
+  
+  color: white;
+  border-radius: 10px;
+  height: 15px;
+  cursor: pointer;
+}
+
+.game p{
+  font-size: 130%;
+  font-family:'Comic Sans MS', cursive;
+  margin-top: 12px; 
+}
+
+#panel{
+  position: absolute;
+  margin-left: 550px;
+  display: none;
+  margin-top: -220px;
+  background-color: white;
+  text-align: center;
+  border-radius: 15px;
+  color: black;
+  text-decoration: none;
+  width: 100px;
+}
+
+#panel li{
+  list-style-type: none;
+  padding: 5%;
+}
+
+#panel ul{
+  margin-left: 0;
+  padding-left: 0;
+}
+
+#li:hover{
+  background-color: rgb(62, 10, 90);
+  color: white;
+}
+
+/** code by webdevtrick ( https://webdevtrick.com ) **/
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,500,700,300);
+
+.textglitch {
+  position: relative;
+  text-align: center;
+  margin: 0 auto;
+  cursor: pointer;
+  z-index: 1;
+  font-size: 5vw;
+  
+}
+ 
+.textglitch .textglitch-link {
+  position: relative;
+  display: inline-block;
+}
+ 
+.textglitch-link span {
+  position: relative;
+  z-index: 2;
+  color: #fff;
+}
+ 
+.blur {
+  filter: blur(1px);
+  -webkit-filter: blur(1px);
+}
+ 
+.textglitch .textglitch-link:after,
+.textglitch .textglitch-link:before {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  content: attr(data-content);
+  visibility: hidden;
+}
+ 
+.textglitch.active .textglitch-link:after,
+.textglitch.active .textglitch-link:before {
+  visibility: visible;
+}
+ 
+.textglitch .textglitch-link:before {
+  color: rgba(255, 0, 188, 0.8);
+  -webkit-animation: textglitch .3s cubic-bezier(.25, .46, .45, .94) both infinite;
+  animation: textglitch .3s cubic-bezier(.25, .46, .45, .94) both infinite;
+}
+ 
+ 
+.textglitch .textglitch-link:after {
+  color: rgba(0,255,255,0.8);
+  -webkit-animation: textglitch .3s cubic-bezier(.25, .46, .45, .94) reverse both infinite;
+  animation: textglitch .3s cubic-bezier(.25, .46, .45, .94) reverse both infinite;
+}
+ 
+@keyframes textglitch {
+  0% {
+    -webkit-transform: translate(0);
+    transform: translate(0)
+  }
+  20% {
+    -webkit-transform: translate(-3px, 3px);
+    transform: translate(-3px, 3px)
+  }
+  40% {
+    -webkit-transform: translate(-3px, -3px);
+    transform: translate(-3px, -3px)
+  }
+  60% {
+    -webkit-transform: translate(3px, 3px);
+    transform: translate(3px, 3px)
+  }
+  80% {
+    -webkit-transform: translate(3px, -3px);
+    transform: translate(3px, -3px)
+  }
+  to {
+    -webkit-transform: translate(0);
+    transform: translate(0)
+  }
+}
+
+
+.cs{
+  display: flex;
+  padding: 2%;
+  color: rgb(7, 7, 7);
+}
+
+.p{
+  padding: 5%;
+}
+
+
+#phot:hover{
+  color: rgba(255, 255, 255, 1);
+  box-shadow: 0 5px 15px rgba(145, 92, 182, .4),
+  0 0 50px rgb(107, 6, 92);
+}
+
+a {
+  background-image: linear-gradient(
+    to right,
+    #54b3d6,
+    #54b3d6 50%,
+    rgb(253, 251, 251) 50%
+  );
+  background-size: 200% 100%;
+  background-position: -100%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+a:before {
+  content: '';
+  background: #54b3d6;
+  display: block;
+  position: absolute;
+  bottom: -3px;
+  left: 0;
+  width: 0;
+  height: 3px;
+}
+a:hover {
+  background-position: 0;
+ }
+
+
+ button{
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.8);
+  background: rgb(145, 92, 182);
+  padding: 15px 40px;
+  border-radius: 4px;
+  font-weight: normal;
+  text-transform: uppercase;
+  transition: all 0.2s ease-in-out;
+}
+
+button:hover {
+  color: rgba(255, 255, 255, 1);
+  box-shadow: 0 5px 15px rgba(145, 92, 182, .4);
+}

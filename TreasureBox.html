@@ -9,18 +9,36 @@
   </head>
   <body>
 
+
+    <script>
+      $(document).ready(function(){
+        $("#gamee").click(function(){
+          $("#panel").fadeToggle("slow");
+        });
+      });
+    </script>
     
     <div class="header">
       <div class="game" style="cursor: pointer;">
-        <p>Tripo Games</p>
+        <p>PVP Games</p>
       </div>
+      <div>
       <div class="info">
         <div>Home</div>
-        <div>Games</div>
+        <div id="gamee">Games</div>
         <div>Careers</div>
         <div>About</div>
         <div>Contact</div>
       </div>
+
+      <div id="panel">
+        <ul id="pan">
+         <li id="li" style="cursor: pointer;">Brawl Stars</li>
+         <li id="li" style="cursor: pointer;">Robotrix</li>
+         <li id="li" style="cursor: pointer;">Treasure Box</li>
+        </ul>
+      </div>
+    </div>
     </div>
 
     <div id = "mainphoto">
