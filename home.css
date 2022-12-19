@@ -354,6 +354,7 @@ body{
     margin-top: -50%;
     margin-left:15%;
     border-radius: 20px;
+    z-index: 3;
   }
 
   .inputdiv{
