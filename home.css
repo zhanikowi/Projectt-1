@@ -54,15 +54,7 @@ body{
     font-family:'Comic Sans MS', cursive;
     margin-top: 12px; 
   }
-
-  /* body{
-    background-image: url(main1.jpg); 
-    width: 100%;
-    height: 98vh;
-    background-position: center;
-    background-size: cover; 
-  } */
-
+   
   .headline{
     margin-top: -550px;
     margin-left: 7%;
@@ -97,85 +89,103 @@ body{
     height: 40px;
     border-radius: 8px;
   }
-
-  .gameintro{
-    margin-top: 200px;
-    margin-left: 7%;
-    margin-right: 7%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    height: 48vh;
-  }
+   @media screen and (max-width: 2000px) {
+    .gameintro{
+      margin-top: 200px;
+      margin-left: 7%;
+      margin-right: 7%;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      height: 48vh;
+    }
+   }
+  
+   #all{
+    background-color: #F6F4F0;
+   }
+   @media screen and (max-width: 400px){
+    .gameintro{
+      margin-top: 200px;
+      display: flex;
+      flex-direction: column;
+      
+      height: 48vh;
+    }
+   }
 
   .gameintro > div{
     border-radius: 20px;
-    width: 22%;
-    height: 100%
+    width: 270px;
+    height: 360px;
    }
 
   .imgintro1{
     object-fit:cover;
     border-radius: 20px;
     background: linear-gradient(to bottom, rgb(247, 216, 160,0), rgb(250, 58, 29,1)), url(imgintro1.png);
-    background-size: 37vh;
+    background-position: center;
+    background-size: 100%;
     
   }
   .imgintro1:hover{
     background-image:url(imgintro1.png);
-    width:22%;
-    height: 100%;
+    
     object-fit:cover;
     border-radius: 20px;
-    background-size: 37vh;
+    background-position: center;
+    background-size: 100%;
   }
 
   .imgintro2{
     object-fit:cover;
     border-radius: 20px;
     background-image: linear-gradient(to bottom, rgb(247, 216, 160,0), rgb(250, 58, 29,1)), url(imgintro2.png);
-    background-size: 37vh;
+    background-position: center;
+    background-size: 100%;
   }
 
   .imgintro2:hover{
     background-image:url(imgintro2.png);
-    width:22%;
-    height: 100%;
+   
     object-fit:cover;
     border-radius: 20px;
-    background-size: 37vh;
+    background-position: center;
+    background-size: 100%;
   }
 
   .imgintro3{
     object-fit:cover;
     border-radius: 20px;
     background-image: linear-gradient(to bottom, rgb(247, 216, 160,0), rgb(250, 58, 29,1)), url(imgintro3.png);
-    background-size: 37vh;
+    background-position: center;
+    background-size: 100%;
   }
 
   .imgintro3:hover{
     background-image:url(imgintro3.png);
-    width:22%;
-    height: 100%;
+   
     object-fit:cover;
     border-radius: 20px;
-    background-size: 37vh;
+    background-position: center;
+    background-size: 100%;
   }
 
   .imgintro4{
     object-fit:cover;
     border-radius: 20px;
     background-image: linear-gradient(to bottom, rgb(247, 216, 160,0), rgb(250, 58, 29,1)), url(imgintro4.png);
-    background-size: 37vh;
+    background-position: center;
+    background-size: 100%;
   }
 
   .imgintro4:hover{
     background-image:url(imgintro4.png);
-    width:22%;
-    height: 100%;
+   
     object-fit:cover;
     border-radius: 20px;
-    background-size: 37vh;
+    background-position: center;
+    background-size: 100%;
   }
 
   .abouttripo{
@@ -206,31 +216,33 @@ body{
 
   .btnabouttripo{
     background-color: rgb(192, 15, 15) ; 
-    width: 150px; 
-    height: 70px; 
+    width: 15%; 
+    height: 3%; 
     border-radius: 15px;
     font-size: 18px;
     color: white;
   }
 
   .imgabouttripo{
-    width: 700px;
-    height: 400px;
+    width: 50%;
+    height: auto;
     border-radius: 15px;
   }
 
   .img2abouttripo{
-    width:230px;
+    width:12%;
     height: auto;
-    margin-top: -200px;
-    margin-left: -650px;
+    margin-top: -10%;
+    margin-left: -45%;
   }
 
   .moreaboutgames{
     background-image: url(moreaboutgames.png);
-    background-size: 190vh;
-    width: 190vh;
-    height: 160vh;
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 50%;
     display: flex;
     flex-direction: row;
   }
@@ -250,7 +262,7 @@ body{
     border-radius: 30px;
     width: 50vh;
     height: 50vh;
-    margin: 0px 100px 50px 180px;
+    margin: 40px 90px 50px 190px;
     box-shadow: 5px 5px 5px #f6c4af69, 0 5px 5px #f6c4af69;
   }
 
@@ -268,7 +280,7 @@ body{
     border-radius: 30px;
     width: 50vh;
     height: 50vh;
-    margin: 0px 50px 50px 220px;
+    margin: 40px 50px 50px 250px;
     box-shadow: 5px 5px 5px #f6c4af69, 0 5px 5px #f6c4af69;
   }
 
@@ -286,7 +298,7 @@ body{
     border-radius: 30px;
     width: 50vh;
     height: 50vh;
-    margin: 340px 50px 50px 180px;
+    margin: 350px 50px 50px 190px;
     box-shadow: 5px 5px 5px #f6c4af69, 0 5px 5px #f6c4af69;
   }
 
@@ -306,6 +318,48 @@ body{
   .more4>img{
     height: 40vh;
   }
+
+  
+
+  .headline1{
+    margin-top: 0px;
+    margin-left: 7%;
+    font-size: 50px;
+    font-family: 'Suez One', serif;
+    color: white;
+  }
+
+  .underheadline1{
+    font-size: 24px; 
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: -650px;
+    margin-left: 7%;
+    color: white;
+  }
+
+  .careersimg{
+    margin-top: -30%;
+    margin-left: 55%;
+    width: 35%;
+  }
+
+  .careersimg1{
+    margin-top: -5px;
+  }
+
+  .input{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: -50%;
+    margin-left:15%;
+    border-radius: 20px;
+  }
+
+  .inputdiv{
+    
+  }
+
 
 
  
