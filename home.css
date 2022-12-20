@@ -15,7 +15,7 @@ body{
     text-align: center;
     align-items: center;
     border-radius: 0 0 15px 15px;
-    position: sticky;
+    position:absolute;
     height: 60px;
     width: 180px;
     box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
@@ -227,7 +227,7 @@ body{
   }
 
   .abouttripo{
-    height: 370vh;
+    height: 340vh;
     align-items: center;
     text-align: center;
     position: relative;
@@ -244,6 +244,8 @@ body{
       margin: 7% 7% 0 7%;
       
     }
+
+    
     .imgabouttripo{
       width: 90%;
       height: auto;
@@ -326,7 +328,7 @@ body{
 
   @media screen  and (max-width: 820px){
     .moreaboutgames{
-    
+      
       width: 100%;
       display: flex;
       flex-direction: column;
@@ -436,6 +438,13 @@ body{
   .more4>img{
     height: 40vh;
   }
+  @media screen and (max-width:820px){
+   
+    .more4 > img{
+      display: none;
+    }
+  }
+
 
   .more11{
     display: flex;
@@ -457,10 +466,25 @@ body{
     flex-direction: column;
   }
   .careers{
-    background-image: url(careers.jpg), url(careers2.jpg);
-    background-position: center top, center bottom;
-    background-repeat: no-repeat;
+    background-image: url(careers.jpg);
     
+
+
+background-attachment: scroll, local;
+
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+  }
+
+
+  .careersasty{
+    background-image: url(careers2.jpg);
+    background-attachment: scroll, local;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
     width: 100%;
   }
 
@@ -490,6 +514,18 @@ body{
       margin-left: 55%;
       width: 35%;
     }
+
+    .multik{
+      width: 400px;
+      margin: 27.5% 0 0 60%;
+    }
+  }
+
+  @media screen and (max-width:820px){
+    
+    .multik{
+     display: none;
+    }
   }
 
  @media screen and (min-width:820px){
@@ -499,7 +535,7 @@ body{
     height: 700px;  
     position: absolute;
     border-radius: 20px;
-    margin-top: -15%;
+    margin-top: -25%;
     margin-left: 10%;
   }
  }
@@ -510,8 +546,8 @@ body{
     height: 700px;  
     position: absolute;
     border-radius: 20px;
-    margin-top: -15%;
-    margin-left: 10%;
+    margin-bottom: 0%;
+    
   }
   .outtotal{
     align-items: center;
@@ -544,7 +580,7 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-top: -50%;
+    margin-top: -40%;
     margin-left:15%;
     border-radius: 20px;
   }
@@ -558,17 +594,20 @@ body{
     padding-left: 10%;
   }
 
-  @media screen  and (max-width:400px){
+  @media screen  and (max-width:820px){
     .pnone{
+      display: none;
+    }
+
+    .totalinput{
+      display: none;
+    }
+    .careersasty{
       display: none;
     }
   }
 
 
- 
-  
-  
- 
   
   
   
