@@ -608,6 +608,31 @@ background-attachment: scroll, local;
   }
 
 
+
+
+  #panel{
+    display: none;
+    margin-left: 1000px;
+    position:fixed;
+    margin-top: -220px;
+    background-color: white;
+    text-align: center;
+    border-radius: 15px;
+    color: black;
+    text-decoration: none;
+    width: 100px;
+  }
+  
+  #panel li{
+    list-style-type: none;
+    padding: 5%;
+  }
+  
+  #panel ul{
+    margin-left: 0;
+    padding-left: 0;
+  }
+
   
   
   
