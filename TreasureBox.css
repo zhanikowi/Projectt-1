@@ -236,7 +236,111 @@ body{
 }
 
 #li:hover{
-  background-color: rgb(211, 39, 39);
+  background-color: rrgb(211, 39, 39);
   color: white;
 }
 
+a{
+  text-decoration: none;
+}
+
+
+
+
+
+@media screen and (width: 820px) {
+  .tbl{
+    display: none;
+  }
+
+  #hrr{
+    display: none;
+  }
+
+  #ddd{
+    display: none;
+  }
+
+
+  body{
+    width: 100%;
+  }
+  .kipon{
+    margin-top: 50px;
+    margin-left: 20px;
+    width: 735px;
+    position:relative;
+  }
+
+  .game{
+    margin-left: 50px;
+  }
+
+  .info{
+    margin-left: 300px;
+    position: absolute;
+  }
+
+  #photo{
+    display: block;
+  }
+
+  #photo img{
+    margin-left: 10px;
+  }
+
+  .reviews{
+    margin-left: -30px;
+  }
+
+
+  .kkk div{
+    border-style: solid;
+    padding: 6%;
+    
+    height: 380px;
+  }
+
+
+
+  .appstore{
+    align-items: center;
+    margin-top: 300px;
+    background-color: white;
+    text-align: center;
+    margin-left: 150px;
+    margin-right: 500px;
+    height: 300px;
+    width: 500px;
+    padding: 2%;
+    margin-top: 10px;
+    border-radius: 15px;
+  }
+  
+  .appstore div{
+    margin-top: 20px;
+  }
+  
+  .game2{
+    margin-left: 330px;
+  }
+  .stores{
+    display: flex;
+    align-items: center;
+    
+  }
+  
+  .stores div{
+    padding-left: 5%;
+  }
+  
+  
+  .stores img{
+    border-radius: 15px;
+    align-items: center;
+    margin-left: 20px;
+  }
+
+
+
+}

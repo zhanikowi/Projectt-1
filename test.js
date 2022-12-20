@@ -17,3 +17,23 @@ $('.textglitch').hover(function(){
 $(".textglitch").css({"right":"100px", opacity:'0'}).animate({"right":"0px", opacity:'1'}, "slow");
 
 
+$(document).ready(function(){
+  $("#but").click(function(){
+    var div = $("#vpered");  
+    div.animate({left: '100px'}, "slow");
+    div.animate({fontSize: '3em'}, "slow");
+  });
+});
+
+$(document).ready(function(){
+$("#butt").click(function(){
+$("#pvp").fadeToggle("slow");
+});
+});
+
+
+$(document).ready(function(){
+$("#but").click(function(){
+$("#vpered").fadeToggle("slow");
+});
+});

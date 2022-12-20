@@ -26,6 +26,8 @@ body{
   height: 60px;
   position: absolute;
   color: white;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .info div{
@@ -34,7 +36,6 @@ body{
 
 
 .info div:hover{
-  
   color: white;
   border-radius: 10px;
   height: 15px;
@@ -218,4 +219,107 @@ a:hover {
 button:hover {
   color: rgba(255, 255, 255, 1);
   box-shadow: 0 5px 15px rgba(145, 92, 182, .4);
+}
+
+#pvp{
+  background-color: aliceblue;
+  padding: 2%;
+  margin: 2%;
+  border-radius: 15px;
+  text-align: center;
+  display: none;
+}
+
+#imggg:hover{
+  color: rgba(255, 255, 255, 1);
+  box-shadow: 0 5px 15px rgba(145, 92, 182, .4),
+  0 0 50px rgb(107, 6, 92);
+}
+
+
+
+
+
+
+@media screen and (width: 820px) {
+  .header{
+    margin-left: -390px;
+  }
+  #img1{
+    width: 820px;
+    height: 500px;
+  }
+
+  .main2 div{
+    display: inline-block;
+    width: 100%;
+  }
+
+  #phot{
+    width: 810px;
+  }
+
+
+  .suret1{
+    margin-top: -200px;
+    width: 810px;
+    margin-left: 40px;
+  }
+
+  .suret2{
+    margin-top: 10px;
+    width: 810px;
+    margin-left: 40px;
+  }
+  
+
+  .suret3{
+    width: 810px;
+    margin-left: 40px;
+  }
+
+  .suret4{
+    margin-top: 10px;
+    width: 810px;
+    margin-left: 40px;
+  }
+
+  
+
+  #p1{
+    margin-left: -60px;
+    width: 600px;
+    margin-top: 10px;
+  }
+
+  #p2{
+    margin-left: 50px;
+    width: 600px;
+    margin-top: 10px;
+  }
+
+  #p3{
+    margin-left: 70px;
+    width: 600px;
+    margin-top: 10px;
+  }
+
+  #p4{
+    margin-left: 50px;
+    width: 600px;
+    margin-top: 10px;
+  }
+
+
+  #but{
+    width: 50px;
+  }
+
+
+
+  #vpered img{
+    width: 400px;
+  }
+
+
 }
