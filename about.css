@@ -39,7 +39,7 @@ body{
       border-radius: 0 0 10px 10px;
       align-items: center;
       text-align: center;
-      width: 470px;
+      width: 400px;
       height: 60px;
       position: fixed;
       box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
@@ -57,7 +57,7 @@ body{
       cursor: pointer;
     }
     .head{
-      background-color: #F6F4F0; height: 600px; margin-top: -22px; padding-right: 50%; padding-left: 6%;
+      background-color: #F6F4F0; height: 400px; margin-top: -22px; padding-right: 50%; padding-left: 6%;
     }
   }
   
@@ -69,6 +69,7 @@ body{
 
   .headline{
     margin-left: 7%;
+    margin-right: 30%;
     font-size: 7vh;
     font-family: 'Suez One', serif;
     color: #272443;
@@ -113,7 +114,7 @@ body{
   
     .aboutcompany2{
       width: 60%;
-      margin: 0 7% 0 7%;
+      
       background-color: rgb(201, 50, 50);
     }
   

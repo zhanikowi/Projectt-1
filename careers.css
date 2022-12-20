@@ -26,7 +26,8 @@ body{
       display: none;
     }
     .head{
-      background-color: #F6F4F0; height: 600px; margin-top: -22px; padding-right: 30%; padding-left: 6%;
+      background-color: #F6F4F0; 
+      height: 600px; margin-top: -22px; padding-right: 30%; padding-left: 6%;
     }
   }
 
@@ -38,7 +39,7 @@ body{
       border-radius: 0 0 10px 10px;
       align-items: center;
       text-align: center;
-      width: 470px;
+      width: 400px;
       height: 60px;
       position: fixed;
       box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
@@ -56,7 +57,7 @@ body{
       cursor: pointer;
     }
     .head{
-      background-color: #F6F4F0; height: 600px; margin-top: -22px; padding-right: 50%; padding-left: 6%;
+      background-color: #F6F4F0; height: 500px; margin-top: -22px; padding-right: 20%; padding-left: 6%;
     }
   }
  
